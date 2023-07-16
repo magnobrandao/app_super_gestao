@@ -28,7 +28,8 @@
         <div class="contato">
             <h1>Contato</h1>
             <p>Caso tenha qualquer dúvida, entre em contato comigo pelo formulário abaixo.<p>
-                    <?php $__env->startComponent('site.layouts._components.form_contato', ['classe'=> 'borda-branca']); ?>
+                    <?php $__env->startComponent('site.layouts._components.form_contato', ['classe'=> 'borda-branca', 'motivo_contatos' => $motivo_contatos]); ?>
+
 
                     <?php echo $__env->renderComponent(); ?>
 

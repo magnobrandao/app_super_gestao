@@ -9,7 +9,10 @@
 
     <div class="informacao-pagina">
         <div class="contato-principal">
-            <?php $__env->startComponent('site.layouts._components.form_contato',['classe'=> 'borda-preta']); ?>
+            <?php $__env->startComponent('site.layouts._components.form_contato', ['classe' => 'borda-preta', 'motivo_contatos' => $motivo_contatos]); ?>
+
+
+
 
 
             <?php echo $__env->renderComponent(); ?>
